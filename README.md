@@ -10,13 +10,6 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 - [Features](#features)  
 - [Animations Explained](#animations-explained)  
 - [Usage](#usage)  
-- [Customization](#customization)  
-- [Touch Scale Effect](#touch-scale-effect)  
-- [Offset Helper](#offset-helper)  
-- [Installation](#installation)  
-- [Requirements](#requirements)  
-- [License](#license)  
-- [Author](#author)  
 
 ---
 
