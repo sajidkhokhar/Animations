@@ -79,7 +79,7 @@ Image(systemName: "star.fill")
 ```
 
 ### Custom Offsets Using OffsetDirection Enum
-```
+```swift
 Text("Custom Offset")
     .offset(.custom(up: 10, right: 15))
 ```
