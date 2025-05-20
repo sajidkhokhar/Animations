@@ -70,7 +70,12 @@ Defines all supported animation styles:
 
 ```swift
 Text("Welcome")
-    .appearAnimated(.fade) 
+.appearAnimated(.center(scale: 0.8, fade: true))
+//.appearAnimated(.fade) 
+//.appearAnimated(.bottomBounce)
+
+
+
 ```
 ### Using Tap Scale Effect for Buttons or Interactive Views
 ```swift
