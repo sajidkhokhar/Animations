@@ -10,6 +10,8 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 - [Features](#features)  
 - [Animations Explained](#animations-explained)  
 - [Usage](#usage)  
+- [Stateless Single-Line Animations](#stateless-single-line-animations)  
+- [Improved Performance](#improved-performance)
 
 ---
 
@@ -19,29 +21,62 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 
 By simply applying a single modifier to a SwiftUI view, you can easily control how the view appears on the screen, with full customization over the animation’s timing, delay, easing curves, and other parameters. The flexibility of the modifier allows you to create various animation effects such as:
 
--Fading views in and out
+- **Fading** views in and out
+- **Sliding** views from different edges (top, bottom, left, right)
+- **Scaling** views from a particular size
+- **Bouncing** and **popping** effects for lively interactions
+- **Combined animations** for more complex transitions
 
--Sliding views from different edges (top, bottom, left, right)
-
--Scaling views from a particular size
-
--Bouncing and popping effects for lively interactions
-
--Combined animations for more complex transitions
-
-Additionally, the library features a tap scaling effect, providing instant visual feedback on user interaction (perfect for buttons or interactive components). For precise UI control, you also have the option to apply custom X/Y offsets to fine-tune the positioning of your views.
+Additionally, the library features a **tap scaling effect**, providing instant visual feedback on user interaction (perfect for buttons or interactive components). For precise UI control, you also have the option to apply custom X/Y offsets to fine-tune the positioning of your views.
 
 ---
 
 ## Features
 
-- **Multiple animation styles:** fade, scale, slide, bounce, pop, combined effects  
-- **Directional entrances:** animations from top, bottom, left, right  
-- **Customizable:** control delay, duration, and animation curve/easing  
-- **Tap scale feedback:** visually scale views on tap gestures  
-- **Flexible offset:** apply custom X/Y offsets with easy syntax  
-- **Clean API:** straightforward modifiers for quick adoption  
-- **Extensible:** add new animation styles easily  
+- **Multiple animation styles**:  
+  Includes fade, scale, slide, bounce, pop, combined effects, and more. These animations can be customized with delays, durations, and easing curves for more control over the effect.
+
+- **Directional entrances**:  
+  Animate views coming in from any of the four edges—top, bottom, left, or right. This is ideal for creating seamless transitions between views or UI elements.
+
+- **Customizable animation properties**:  
+  Full control over timing, duration, delays, and easing curves, allowing you to fine-tune the animations to suit your design requirements.
+
+- **Tap scale feedback**:  
+  Add visual feedback when the user taps on interactive views like buttons or icons. The view scales down and up briefly, providing instant interaction feedback.
+
+- **Flexible offset positioning**:  
+  Apply custom offsets to position your views precisely within the layout. Adjust for X and Y axis with a clean, easy-to-read syntax.
+
+- **Clean and easy-to-use API**:  
+  With simple modifiers, adding animations to your views is effortless. No complex setup or configuration is needed—just call `.appearAnimated()` and you're ready to go.
+
+- **Extensible**:  
+  You can easily extend the package with new animation styles or custom modifications without having to modify the core functionality.
+
+- **Optimized performance**:  
+  SwiftUI’s native animation support ensures hardware acceleration for smoother animations, resulting in minimal performance overhead. The lightweight, stateless animations are designed to be efficient and fast, even for complex animations with many views.
+
+- **Support for interactive animations**:  
+  Besides static entrance animations, the package also includes touch-related animations, such as the **tap scale effect**, which can be applied to any view for interactive feedback, making your app feel responsive and intuitive.
+
+- **Minimal boilerplate code**:  
+  Save time and reduce clutter in your SwiftUI code. With one-line modifiers for each animation style, the package keeps things clean and readable.
+
+- **Built for SwiftUI**:  
+  Native to SwiftUI, the library integrates seamlessly into your SwiftUI projects. No need for UIKit bridges or additional setup. Just import and start animating.
+
+- **Fully customizable animation sequence**:  
+  You can easily chain animations, adjust delay and timing, or combine different animation effects to create smooth, multi-step transitions.
+
+- **Consistency and reusability**:  
+  Once defined, animations can be reused across the app, ensuring consistent visual transitions and behavior.
+
+- **Easy to adopt**:  
+  Integrate animations in just a few lines of code. Whether you're animating a single element or a series of views, the syntax is intuitive and easy to learn.
+
+- **Cross-device and cross-screen size compatibility**:  
+  Animations are designed to work seamlessly on different device sizes and orientations, ensuring a consistent experience on all iPhones and iPads.
 
 ---
 
@@ -66,13 +101,16 @@ Defines all supported animation styles:
 | `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomPop.gif) |
 | `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomFadeRise.gif) |
 | `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
-| `TouchScaleEffect button`| Scales the view when tapped. You can specify the scale factor and animation duration. | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
-| `Custom Offsets`| You can apply custom offsets to your views for precise positioning. | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
+| `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
+| `Custom Offsets`           | You can apply custom offsets to your views for precise positioning. | ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) |
 
+---
 
 ### TouchScaleEffect
-The TouchScaleEffect allows you to add a visual scaling effect on tap. This is commonly used for buttons or interactive views where you want to give feedback on user interaction
 
+The `TouchScaleEffect` allows you to add a visual scaling effect on tap. This is commonly used for buttons or interactive views where you want to give feedback on user interaction.
+
+---
 
 ## Usage
 
