@@ -116,7 +116,7 @@ The `TouchScaleEffect` allows you to add a visual scaling effect on tap. This is
 
 ### Example Usage
 
-### Applying Basic Appearance Animation
+### Applying Appearance Animation
 
 ```swift
 Text("Welcome")
