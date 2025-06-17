@@ -15,9 +15,21 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 
 ## Overview
 
-`AppearAnimation` simplifies adding polished entrance animations to SwiftUI views. It abstracts common animation patterns like fade-ins, slides from different edges, scaling, bouncing, and combined effects. By applying a single modifier, you can control how a view appears, including animation timing, delay, and easing.
+`AppearAnimation` is a SwiftUI animation utility designed to bring smooth, engaging, and customizable entrance animations to your app with minimal effort. The library abstracts common animation patterns like fade-ins, slides from various edges, scaling effects, bouncing, and combined animations, allowing you to create dynamic UI interactions effortlessly.
 
-The package also includes a tap scaling effect to provide visual feedback on user interaction and a flexible offset helper for precise view positioning.
+By simply applying a single modifier to a SwiftUI view, you can easily control how the view appears on the screen, with full customization over the animation’s timing, delay, easing curves, and other parameters. The flexibility of the modifier allows you to create various animation effects such as:
+
+Fading views in and out
+
+Sliding views from different edges (top, bottom, left, right)
+
+Scaling views from a particular size
+
+Bouncing and popping effects for lively interactions
+
+Combined animations for more complex transitions
+
+Additionally, the library features a tap scaling effect, providing instant visual feedback on user interaction (perfect for buttons or interactive components). For precise UI control, you also have the option to apply custom X/Y offsets to fine-tune the positioning of your views.
 
 ---
 
