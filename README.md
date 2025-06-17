@@ -19,15 +19,15 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 
 By simply applying a single modifier to a SwiftUI view, you can easily control how the view appears on the screen, with full customization over the animation’s timing, delay, easing curves, and other parameters. The flexibility of the modifier allows you to create various animation effects such as:
 
-Fading views in and out
+-Fading views in and out
 
-Sliding views from different edges (top, bottom, left, right)
+-Sliding views from different edges (top, bottom, left, right)
 
-Scaling views from a particular size
+-Scaling views from a particular size
 
-Bouncing and popping effects for lively interactions
+-Bouncing and popping effects for lively interactions
 
-Combined animations for more complex transitions
+-Combined animations for more complex transitions
 
 Additionally, the library features a tap scaling effect, providing instant visual feedback on user interaction (perfect for buttons or interactive components). For precise UI control, you also have the option to apply custom X/Y offsets to fine-tune the positioning of your views.
 
