@@ -55,6 +55,8 @@ Defines all supported animation styles:
 | `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomFadeRise.gif) |
 | `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
 | `TouchScaleEffect button`| Scales the view when tapped. You can specify the scale factor and animation duration. | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
+| `Custom Offsets`| You can apply custom offsets to your views for precise positioning. | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
+
 
 ### TouchScaleEffect
 The TouchScaleEffect allows you to add a visual scaling effect on tap. This is commonly used for buttons or interactive views where you want to give feedback on user interaction
