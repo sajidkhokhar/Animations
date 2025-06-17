@@ -54,19 +54,33 @@ Defines all supported animation styles:
 | `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomPop.gif) |
 | `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomFadeRise.gif) |
 | `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
+| `TouchScaleEffect button`| Scales the view when tapped. You can specify the scale factor and animation duration. | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
+
+### TouchScaleEffect
+The TouchScaleEffect allows you to add a visual scaling effect on tap. This is commonly used for buttons or interactive views where you want to give feedback on user interaction
 
 
 ## Usage
+
+### Example Usage
 
 ### Applying Basic Appearance Animation
 
 ```swift
 Text("Welcome")
 .appearAnimated(.center(scale: 0.8, fade: true))
-//.appearAnimated(.fade) 
-//.appearAnimated(.bottomBounce)
 
+Text("Slide from Bottom")
+    .appearAnimated(.fromBottom)
 
+Text("Fade In")
+    .appearAnimated(.fade)
+
+Text("Scale from 0.5")
+    .appearAnimated(.scale(from: 0.5))
+
+Text("Floating Animation")
+    .floating(.leftRight(amplitude: 15), speed: 2.0)
 
 ```
 ### Using Tap Scale Effect for Buttons or Interactive Views
