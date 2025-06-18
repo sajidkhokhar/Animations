@@ -256,14 +256,8 @@ extension View {
     }
 }
 
-//
-//  Header.swift
-//  Playlist Manager
-//
-//  Created by Sajid on 11/11/24.
-//
 
-import SwiftUI
+// MARK: - View struct for applying StretchableHeader effect
 
 struct StretchableHeader: View {
     var image: String
