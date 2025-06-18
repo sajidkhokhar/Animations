@@ -1,4 +1,4 @@
-# AppearAnimation
+# Stateless AppearAnimation
 
 A versatile SwiftUI animation utility that enables easy, reusable, and customizable appearance animations for any view in your SwiftUI projects.
 
