@@ -255,3 +255,32 @@ extension View {
         }
     }
 }
+
+//
+//  Header.swift
+//  Playlist Manager
+//
+//  Created by Sajid on 11/11/24.
+//
+
+import SwiftUI
+
+struct StretchableHeader: View {
+    var image: String
+    
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack {
+                Image(image)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: geometry.size.width, height: geometry.frame(in: .global).minY > 0 ? UIScreen.main.bounds.height / 2.8 + geometry.frame(in: .global).minY : UIScreen.main.bounds.height / 2.8)
+                    .clipped()
+                    .offset(y: geometry.frame(in: .global).minY > 0 ? -geometry.frame(in: .global).minY : 0)
+            }
+        }
+        .frame(height: UIScreen.main.bounds.height / 2.8)
+        .allowsHitTesting(false)
+    }
+}
+
