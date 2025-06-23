@@ -90,7 +90,7 @@ Defines all supported animation styles:
 |----------------------------|-------------|-------------------|
 | `fade`                     | Simple fade-in opacity animation | ![fade](https://github.com/sajidkhokhar/Animations/blob/main/images/fade.gif) |
 | `scale(from:)`             | Scale animation starting from specified scale | ![scale](https://github.com/sajidkhokhar/Animations/blob/main/images/scale.gif) |
-| `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/images/center.gif) |
+| `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) |
 | `fromTop`                  | Slide from the top with subtle scale and fade | ![fromTop](https://github.com/sajidkhokhar/Animations/blob/main/images/fromTop.gif) |
 | `fromBottom`               | Slide from bottom with subtle scale and fade | ![fromBottom](https://github.com/sajidkhokhar/Animations/blob/main/images/fromBottom.gif) |
 | `fromLeft`                 | Slide from left with subtle scale and fade | ![fromLeft](https://github.com/sajidkhokhar/Animations/blob/main/images/fromLeft.gif) |
