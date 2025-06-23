@@ -94,7 +94,7 @@ Defines all supported animation styles:
 | `fromTop`                  | Slide from the top with subtle scale and fade | ![fromTop](https://github.com/sajidkhokhar/Animations/blob/main/images/fromTop.gif) |
 | `fromBottom`               | Slide from bottom with subtle scale and fade | ![fromBottom](https://github.com/sajidkhokhar/Animations/blob/main/images/fromBottom.gif) |
 | `fromLeft`                 | Slide from left with subtle scale and fade | ![fromLeft](https://github.com/sajidkhokhar/Animations/blob/main/images/fromLeft.gif) |
-| `fromRight`                | Slide from right with subtle scale and fade | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/images/fromRight.gif) |
+| `fromRight`                | Slide from right with subtle scale and fade | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
 | `slide(from:)`             | Slide in from a specified `Edge` without scaling | ![slide](https://github.com/sajidkhokhar/Animations/blob/main/images/slide.gif) |
 | `combined(from:scale:)`    | Slide + scale + fade combined effect | ![combined](https://github.com/sajidkhokhar/Animations/blob/main/images/combined.gif) |
 | `bottomBounce`             | Bounce in from bottom | ![bottomBounce](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomBounce.gif) |
