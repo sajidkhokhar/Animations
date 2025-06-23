@@ -103,7 +103,7 @@ Defines all supported animation styles:
 | `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif) |
 | `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
 | `Custom Offsets`           | You can apply custom offsets to your views for precise positioning. | ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) |
-| `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![customOffset]([https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif)) |
+| `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 
 ---
 
