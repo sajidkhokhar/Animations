@@ -106,6 +106,10 @@ Defines all supported animation styles:
 | `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 
 ---
+### Example Video
+ ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) 
+
+
 
 ### TouchScaleEffect
 
