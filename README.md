@@ -107,7 +107,7 @@ Defines all supported animation styles:
 
 ---
 ### Example Video
- ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) 
+ ![customOffset]([https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/Screen%20Recording%202025-06-26%20at%206.46.44%20PM.gif)) 
 
 
 
