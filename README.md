@@ -82,29 +82,26 @@ Additionally, the library features a **tap scaling effect**, providing instant v
 
 ### Animations Explained
 
-#### AppearAnimation Enum
+## 🎬 Supported Animation Types
 
-Defines all supported animation styles:
+Explore all the built-in entrance animations supported by this library:
 
-| Animation Type             | Description | Example Animation |
-|----------------------------|-------------|-------------------|
-| `Example App`        | You can apply All Combined animations to your views using single line on each view. | ![Example app](AnimationResources/ExamplesApp.gif) |
-| `fade`                     | Simple fade-in opacity animation | ![fade](AnimationResources/SimpleFade.gif) |
-| `scale(from:.center)`             | Scale animation starting from specified scale center , top , right, left , bottom. | ![scale](AnimationResources/CenterScale.gif) |
-| `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) 
-| `fromRight, fromBottom, center(scale:fade:)`                | Human image coming from right with subtle scale and fade , Continue button coming from bottom , top heading and images appeared using .center animation Like this you can combine all animation in single view using this animations. | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
-| `slide(from:)`             | Slide in from a specified `Edge` without scaling | ![slide](AnimationResources/SlideFrom.gif) |
-| `combined(from:scale:)`    | Slide + scale + fade combined effect | ![combined](AnimationResources/CombinedSlideScale.gif) |
-| `bottomBounce`             | Bounce in from bottom | ![bottomBounce](AnimationResources/BottomBounce.gif) |
-| `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop](AnimationResources/BottomPop.gif) |
-| `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](AnimationResources/BottomFadeRise.gif) |
-| `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](AnimationResources/BottomDrop.gif) |
-| `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](AnimationResources/TouchScale.gif) |
-| `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
+| **Animation Type**              | **Description**                                                                                     | **Example Animation** |
+|----------------------------------|-----------------------------------------------------------------------------------------------------|------------------------|
+| `Example App`                   | Demonstrates multiple animations applied seamlessly to views using a single line per animation.    | ![Example App](AnimationResources/ExamplesApp.gif) |
+| `fade`                          | Applies a simple fade-in effect by animating the opacity from 0 to 1.                              | ![Fade](AnimationResources/SimpleFade.gif) |
+| `scale(from: .center)`          | Scales the view from a specified anchor point (`center`, `top`, `left`, `right`, or `bottom`).     | ![Scale](AnimationResources/CenterScale.gif) |
+| `center(scale:fade:)`           | Animates the view by scaling from the center and optionally fading in.                            | ![Center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) |
+| `fromRight`, `fromBottom`, `center(scale:fade:)` | Combines multiple animations: an image slides in from the right with fade and scale, a button rises from the bottom, and top content appears using center scaling — ideal for full-screen animated compositions. | ![Combined](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
+| `slide(from:)`                  | Slides the view in from a specified `Edge` without applying scale or fade.                        | ![Slide](AnimationResources/SlideFrom.gif) |
+| `combined(from:scale:)`         | Combines slide, scale, and fade effects for a smooth, multi-dimensional appearance.               | ![Combined](AnimationResources/CombinedSlideScale.gif) |
+| `bottomBounce`                  | Animates the view from the bottom with a bouncing effect, simulating springy motion.               | ![Bounce](AnimationResources/BottomBounce.gif) |
+| `bottomPop(scale:)`             | Pops the view up from the bottom with a scaling animation, ideal for modals and action buttons.   | ![Pop](AnimationResources/BottomPop.gif) |
+| `bottomFadeRise`                | Fades the view in while simultaneously rising it from the bottom.                                  | ![Fade Rise](AnimationResources/BottomFadeRise.gif) |
+| `bottomDrop(bounceHeight:)`     | Drops the view from above and simulates bounce on impact, resembling gravity-based motion.         | ![Drop](AnimationResources/BottomDrop.gif) |
+| `TouchScaleEffect`              | Briefly scales down the view on tap and then reverts, providing tactile feedback for user taps.    | ![Touch Scale](AnimationResources/TouchScale.gif) |
+| `StretchableHeader`             | Implements a parallax-style stretch effect on header images during vertical scrolling.             | ![Stretchable Header](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 
-
-
----
 
 ### TouchScaleEffect
 
