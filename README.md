@@ -10,7 +10,6 @@ A versatile SwiftUI animation utility that enables easy, reusable, and customiza
 - [Features](#features)  
 - [Animations Explained](#animations-explained)  
 - [Usage](#usage)  
-- [Stateless Single-Line Animations](#stateless-single-line-animations)  
 - [Improved Performance](#improved-performance)
 
 ---
@@ -112,7 +111,13 @@ Explore all the built-in entrance animations supported by this library:
 ### TouchScaleEffect
 
 The `TouchScaleEffect` allows you to add a visual scaling effect on tap. This is commonly used for buttons or interactive views where you want to give feedback on user interaction.
+```swift
+Button("Tap Me") {
+    // Your action
+}
+.onTapToScale(scale : 0.88) // Add touch shrink effect
 
+```
 ---
 
 ## Usage
