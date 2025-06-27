@@ -99,7 +99,7 @@ Defines all supported animation styles:
 | `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop](AnimationResources/BottomPop.gif) |
 | `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](AnimationResources/BottomFadeRise.gif) |
 | `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](AnimationResources/BottomDrop.gif) |
-| `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
+| `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](AnimationResources/TouchScale.gif) |
 | `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 
 
