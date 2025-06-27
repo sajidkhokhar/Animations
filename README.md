@@ -88,7 +88,7 @@ Defines all supported animation styles:
 
 | Animation Type             | Description | Example Animation |
 |----------------------------|-------------|-------------------|
-| `All Animations`        | You can apply All Combined animations to your views using single line on each view. | ![Example app]([AnimationResources/ExamplesApp.gif) |
+| `All Animations`        | You can apply All Combined animations to your views using single line on each view. | ![Example app](AnimationResources/ExamplesApp.gif) |
 | `fade`                     | Simple fade-in opacity animation | ![fade]([https://github.com/sajidkhokhar/Animations/blob/main/images/fade.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/SimpleFade.gif)) |
 | `scale(from:.center)`             | Scale animation starting from specified scale center , top , right, left , bottom. | ![scale]([https://github.com/sajidkhokhar/Animations/blob/main/images/scale.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/CenterScale.gif)) |
 | `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) 
