@@ -144,6 +144,14 @@ Image(systemName: "star.fill")
     .appearAnimated(.combined(from: .bottom, scale: 0.7), delay: 0.3, duration: 0.6, curve: .easeOut)
 ```
 
+### StretchableHeader 
+```swift
+ScrollView {
+    StretchableHeader(image: "yourImageName")
+    // Other views...
+}
+```
+
 ### Custom Offsets Using OffsetDirection Enum
 ```swift
 Text("Custom Offset")
