@@ -104,12 +104,10 @@ Defines all supported animation styles:
 | `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
 | `Custom Offsets`           | You can apply custom offsets to your views for precise positioning. | ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) |
 | `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
+| `All Animations`        | You can apply All Combined animations to your views using single line. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
+
 
 ---
-### Example Video
- ![customOffset]([https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/Screen%20Recording%202025-06-26%20at%206.46.44%20PM.gif)) 
-
-
 
 ### TouchScaleEffect
 
