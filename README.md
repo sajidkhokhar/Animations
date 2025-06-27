@@ -89,16 +89,16 @@ Defines all supported animation styles:
 | Animation Type             | Description | Example Animation |
 |----------------------------|-------------|-------------------|
 | `Example App`        | You can apply All Combined animations to your views using single line on each view. | ![Example app](AnimationResources/ExamplesApp.gif) |
-| `fade`                     | Simple fade-in opacity animation | ![fade]([https://github.com/sajidkhokhar/Animations/blob/main/images/fade.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/SimpleFade.gif)) |
-| `scale(from:.center)`             | Scale animation starting from specified scale center , top , right, left , bottom. | ![scale]([https://github.com/sajidkhokhar/Animations/blob/main/images/scale.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/CenterScale.gif)) |
+| `fade`                     | Simple fade-in opacity animation | ![fade](AnimationResources/SimpleFade.gif) |
+| `scale(from:.center)`             | Scale animation starting from specified scale center , top , right, left , bottom. | ![scale](AnimationResources/CenterScale.gif) |
 | `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) 
 | `fromRight, fromBottom, center(scale:fade:)`                | Human image coming from right with subtle scale and fade , Continue button coming from bottom , top heading and images appeared using .center animation Like this you can combine all animation in single view using this animations. | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
-| `slide(from:)`             | Slide in from a specified `Edge` without scaling | ![slide]([https://github.com/sajidkhokhar/Animations/blob/main/images/slide.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/SlideFrom.gif)) |
-| `combined(from:scale:)`    | Slide + scale + fade combined effect | ![combined]([https://github.com/sajidkhokhar/Animations/blob/main/images/combined.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/CombinedSlideScale.gif)) |
-| `bottomBounce`             | Bounce in from bottom | ![bottomBounce]([https://github.com/sajidkhokhar/Animations/blob/main/images/bottomBounce.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/BottomBounce.gif)) |
-| `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop]([https://github.com/sajidkhokhar/Animations/blob/main/images/bottomPop.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/BottomPop.gif)) |
-| `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise]([https://github.com/sajidkhokhar/Animations/blob/main/images/bottomFadeRise.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/BottomFadeRise.gif)) |
-| `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop]([https://github.com/sajidkhokhar/Animations/blob/main/images/bottomDrop.gif](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/BottomDrop.gif)) |
+| `slide(from:)`             | Slide in from a specified `Edge` without scaling | ![slide](AnimationResources/SlideFrom.gif) |
+| `combined(from:scale:)`    | Slide + scale + fade combined effect | ![combined](AnimationResources/CombinedSlideScale.gif) |
+| `bottomBounce`             | Bounce in from bottom | ![bottomBounce](AnimationResources/BottomBounce.gif) |
+| `bottomPop(scale:)`        | Pop animation rising from bottom with scale | ![bottomPop](AnimationResources/BottomPop.gif) |
+| `bottomFadeRise`           | Fade and rise from bottom | ![bottomFadeRise](AnimationResources/BottomFadeRise.gif) |
+| `bottomDrop(bounceHeight:)`| Drop animation with bounce effect from above | ![bottomDrop](AnimationResources/BottomDrop.gif) |
 | `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
 | `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 
