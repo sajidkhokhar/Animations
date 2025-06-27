@@ -88,13 +88,14 @@ Defines all supported animation styles:
 
 | Animation Type             | Description | Example Animation |
 |----------------------------|-------------|-------------------|
+| `All Animations`        | You can apply All Combined animations to your views using single line. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
 | `fade`                     | Simple fade-in opacity animation | ![fade](https://github.com/sajidkhokhar/Animations/blob/main/images/fade.gif) |
 | `scale(from:)`             | Scale animation starting from specified scale | ![scale](https://github.com/sajidkhokhar/Animations/blob/main/images/scale.gif) |
 | `center(scale:fade:)`      | Scale and optional fade animation from center | ![center](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/center_scale_fade1.gif) |
 | `fromTop`                  | Slide from the top with subtle scale and fade | ![fromTop](https://github.com/sajidkhokhar/Animations/blob/main/images/fromTop.gif) |
 | `fromBottom`               | Slide from bottom with subtle scale and fade | ![fromBottom](https://github.com/sajidkhokhar/Animations/blob/main/images/fromBottom.gif) |
 | `fromLeft`                 | Slide from left with subtle scale and fade | ![fromLeft](https://github.com/sajidkhokhar/Animations/blob/main/images/fromLeft.gif) |
-| `fromRight, fromBottom, center(scale:fade:)`                | Human image coming from right with subtle scale and fade , Continue button coming from bottom , top heading and images appeared using .center animation | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
+| `fromRight, fromBottom, center(scale:fade:)`                | Human image coming from right with subtle scale and fade , Continue button coming from bottom , top heading and images appeared using .center animation Like this you can combine all animation in single view using this animations. | ![fromRight](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/fromRight_and_center.gif) |
 | `slide(from:)`             | Slide in from a specified `Edge` without scaling | ![slide](https://github.com/sajidkhokhar/Animations/blob/main/images/slide.gif) |
 | `combined(from:scale:)`    | Slide + scale + fade combined effect | ![combined](https://github.com/sajidkhokhar/Animations/blob/main/images/combined.gif) |
 | `bottomBounce`             | Bounce in from bottom | ![bottomBounce](https://github.com/sajidkhokhar/Animations/blob/main/images/bottomBounce.gif) |
@@ -104,7 +105,7 @@ Defines all supported animation styles:
 | `TouchScaleEffect button`  | Scales the view when tapped. You can specify the scale factor and animation duration. | ![touchScale](https://github.com/sajidkhokhar/Animations/blob/main/images/touchScale.gif) |
 | `Custom Offsets`           | You can apply custom offsets to your views for precise positioning. | ![customOffset](https://github.com/sajidkhokhar/Animations/blob/main/images/customOffset.gif) |
 | `StretchableHeader`        | You can apply Custom StretchableHeader to your views. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
-| `All Animations`        | You can apply All Combined animations to your views using single line. | ![StretchableHeader ](https://github.com/sajidkhokhar/Animations/blob/main/AnimationResources/StretchableHeader.gif) |
+
 
 
 ---
